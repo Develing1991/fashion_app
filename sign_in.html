@@ -7,24 +7,26 @@
   <title>Sign in - Fashion App</title>
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-  <h1 class="main-tt text-left">Sign In</h1>
-  <form action="#" method="POST">
-    <p>
-      <label for="user_email">Email</label>
-      <input type="email" id="user_email" placeholder="Email">
+<body class="sign_in">
+  <div class="container">
+    <h1 class="main-tt text-left">Sign In</h1>
+    <form action="#" method="POST">
+      <p>
+        <label for="user_email">Email</label>
+        <input type="email" id="user_email" placeholder="Email">
+      </p>
+      <p>
+        <label for="user_pw">Password</label>
+        <input type="password" id="user_pw" placeholder="Password">
+      </p>
+      <p>
+        <input type="submit" value="Sign In" class="btn">
+      </p>
+    </form>
+    <p class="sign_links">
+      <a href="sign_up.html" class="text-center">Sign Up</a>
+      <a href="javascript:void(0)" class="text-center">Forgot Password?</a>
     </p>
-    <p>
-      <label for="user_pw">Password</label>
-      <input type="password" id="user_pw" placeholder="Password">
-    </p>
-    <p>
-      <input type="submit" value="Sign In" class="btn">
-    </p>
-  </form>
-  <p class="siginin_links">
-    <a href="sign_up.html">Sign Up</a>
-    <a href="reset_pw.html">Forgot Password?</a>
-  </p>
+  </div>
 </body>
 </html>
